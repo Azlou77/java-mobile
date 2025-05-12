@@ -3,25 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.WelcomeFragment"
     android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ui.main.WelcomeFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="24dp"
         android:text="Welcome to SuperQuiz"
-        android:textSize="24sp"
-        android:layout_margin="24dp"/>
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="24dp"
         android:text="What's your name"
-        android:textSize="20sp"
-        android:layout_margin="24dp"/>
-    
+        android:textSize="20sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,9 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="48dp"
-        android:textSize="14sp"
         android:background="#808080"
-        android:text="Let's play" />
+        android:text="Let's play"
+        android:textSize="14sp" />
 
 
 </LinearLayout>
